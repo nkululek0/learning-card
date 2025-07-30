@@ -5,7 +5,8 @@
     padding: 1rem;
     border: 1px solid var(--gray-950);
     border-radius: var(--global-border-radius);
-        box-shadow: 5px 5px var(--gray-950);
+    box-shadow: 5px 5px var(--gray-950);
+    background-color: var(--white);
 }
 
 /* END Parent Container */
