@@ -23,7 +23,7 @@ export function Card () {
                 </article>
                 <div className={ styles.publisher }>
                     <div className={ styles.avatar }>
-                        <img src={ Avatar } alt="image of publisher" />
+                        <img className={ styles.avatarImage } src={ Avatar } alt="image of publisher" />
                     </div>
                     <p className={ styles.publisherName }>
                         Greg Hopper
