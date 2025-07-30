@@ -2,6 +2,10 @@
 .wrapper {
     width: auto;
     max-width: 350px;
+    padding: 1rem;
+    border: 1px solid var(--gray-950);
+    border-radius: var(--global-border-radius);
+        box-shadow: 5px 5px var(--gray-950);
 }
 
 /* END Parent Container */
@@ -10,12 +14,12 @@
 .imageWrapper {
     width: 100%;
     height: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 
     .image {
         width: 100%;
         height: 100%;
-        border-radius: 8px;
+        border-radius: var(--global-border-radius);
     }
 }
 
@@ -27,14 +31,35 @@
     margin-bottom: 1.3rem;
 
     .meta {
-        margin-bottom: 1rem;
+        margin-bottom: 1.3rem;
         display: flex;
         flex-direction: column;
-        gap: 0.5rem;
+        gap: 0.8rem;
+
+        .topic {
+            width: fit-content;
+            font-weight: 900;
+            font-size: 14px;
+            padding: 0.5rem 1rem;
+            border-radius: var(--global-border-radius);
+            background-color: var(--yellow);
+        }
+        .date {
+            font-weight: 550;
+            font-size: 14px;
+        }
     }
 
     .heading {
         margin-bottom: 1.3rem;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 100%;
+    }
+    .description {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
     }
 }
 
@@ -58,7 +83,11 @@
             height: 100%;
         }
     }
-}
 
+    .publisherName {
+        font-weight: 900;
+        font-size: 14px;
+    }
+}
 
 /* END Publisher Related */

@@ -16,7 +16,7 @@ export function Card () {
                     </section>
                     <section className={ styles.content}>
                         <h2 className={ styles.heading }>HTML & CSS foundations</h2>
-                        <p>
+                        <p className={ styles.description }>
                             These languages are the backbone of every website, defining structure, content and presentation.
                         </p>
                     </section>
