@@ -1,3 +1,10 @@
+:root {
+  --yellow: #f4d04e;
+  --gray-950: #111111;
+  --gray-500: #686868;
+  --white: #ffffff;
+}
+
 .main {
-  background-color: #fff;
+  background-color: var(--white);
 }
