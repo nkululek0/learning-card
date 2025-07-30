@@ -6,8 +6,20 @@ export function Card () {
         <>
             <article className={ styles.wrapper }>
                 <div className={ styles.imageWrapper }>
-                    <img className={ styles.image } src={ BlogImage } alt="placeholder" />
+                    <img className={ styles.image } src={ BlogImage } alt="blog image" />
                 </div>
+                <article className={ styles.contentWrapper }>
+                    <section className={ styles.meta }>
+                        <span className={ styles.topic }>Learning</span>
+                        <span className={ styles.date }>Published 21 Dec 2023</span>
+                    </section>
+                    <section className={ styles.content}>
+                        <h2 className={ styles.heading }>HTML & CSS foundations</h2>
+                        <p>
+                            These languages are the backbone of every website, defining structure, content and presentation.
+                        </p>
+                    </section>
+                </article>
             </article>
         </>
     )

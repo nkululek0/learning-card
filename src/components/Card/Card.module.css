@@ -1,8 +1,12 @@
+/* Parent Container */
 .wrapper {
     width: auto;
     max-width: 350px;
 }
 
+/* END Parent Container */
+
+/* Image Related */
 .imageWrapper {
     width: 100%;
     height: 100%;
@@ -13,3 +17,25 @@
     height: 100%;
     border-radius: 8px;
 }
+
+/* END Image Related */
+
+/* Content Related */
+.contentWrapper {
+    margin-top: 1rem;
+}
+
+.meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.content {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+/* END Content Related */
