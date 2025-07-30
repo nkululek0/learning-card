@@ -3,6 +3,7 @@
   --gray-950: #111111;
   --gray-500: #686868;
   --white: #ffffff;
+  --global-border-radius: 8px;
 }
 
 .main {
