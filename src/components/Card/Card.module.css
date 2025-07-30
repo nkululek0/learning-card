@@ -10,6 +10,7 @@
 .imageWrapper {
     width: 100%;
     height: 100%;
+    margin-bottom: 1rem;
 }
 
 .image {
@@ -22,20 +23,18 @@
 
 /* Content Related */
 .contentWrapper {
-    margin-top: 1rem;
+    margin-bottom: 1.3rem;
 }
 
 .meta {
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-.content {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.3rem;
+.heading {
+    margin-bottom: 1.3rem;
 }
 
 /* END Content Related */
