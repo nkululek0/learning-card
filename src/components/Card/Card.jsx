@@ -1,4 +1,5 @@
 import BlogImage from './assets/blog-image.png'
+import Avatar from './assets/avatar.png'
 import styles from './Card.module.css'
 
 export function Card () {
@@ -20,6 +21,14 @@ export function Card () {
                         </p>
                     </section>
                 </article>
+                <div className={ styles.publisher }>
+                    <div className={ styles.avatar }>
+                        <img src={ Avatar } alt="image of publisher" />
+                    </div>
+                    <p className={ styles.publisherName }>
+                        Greg Hopper
+                    </p>
+                </div>
             </article>
         </>
     )
